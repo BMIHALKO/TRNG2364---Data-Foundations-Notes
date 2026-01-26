@@ -1,0 +1,12 @@
+Pip - pip installs packages
+pip tries to download 3rd-party packages from PyPl (the main 3rd party repo for python packages)
+
+packages that are downloaded are saved to your python library, but it is common practice to create a virtual environment for any project using 3rd party packages
+
+the virtual environment will have a copy of the interpretor and the library used to create it and any pip installs; all will be on the virtual environment
+Any pip installs will be redirected to the virtual environemtn when the environment is activated
+
+the command 
+py -m {environmentName} to create the environment
+
+run py -m {environmentName} 

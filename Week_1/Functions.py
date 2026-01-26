@@ -104,3 +104,6 @@ print(Pokedex[1][1])
 
 Pokedex.sort(key = lambda x: x[1], reverse = False)
 print(Pokedex)
+
+
+#Day 3
